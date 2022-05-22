@@ -1,0 +1,20 @@
+{
+  "name": "ws-msg",
+  "version": "1.0.0",
+  "description": "Websocket communication library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test-send": "node test/send.js",
+    "test-shout": "node test/shout.js",
+    "test-middleware": "node test/middleware.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "casper75"
+  },
+  "author": "casper75",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
